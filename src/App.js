@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import MessageBox from './Components/MessageBox'
+import TextBox from './Components/Textbox'
 
 function App() {
   return (
     <div className="App">
-      <h1> And Title Project</h1>
+      <MessageBox />
+      <TextBox />
     </div>
   );
 }
