@@ -1,12 +1,12 @@
-import React from 'react'
 import MessageBox from './Components/MessageBox'
-import TextBox from './Components/Textbox'
+import Textbox from './Components/Textbox'
+
 
 function App() {
   return (
     <div className="App">
       <MessageBox />
-      <TextBox />
+      <Textbox />
     </div>
   );
 }
