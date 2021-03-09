@@ -1,14 +1,14 @@
+import React from "react"
 import MessageBox from './Components/MessageBox'
 import Textbox from './Components/Textbox'
+import './App.css'
 
-
-function App() {
-  return (
-    <div className="App">
+class App extends React.Component{
+  render() {
+    return (
       <MessageBox />
-      <Textbox />
-    </div>
-  );
+    )
+  }
 }
 
 export default App;
